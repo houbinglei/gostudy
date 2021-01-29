@@ -32,5 +32,4 @@ func main() {
 	fmt.Println(strings.Contains(s1, "bing")) // true
 	fmt.Println(strings.HasPrefix(s1, "bi"))
 	fmt.Println(strings.Join(ret, "+"))
-
 }

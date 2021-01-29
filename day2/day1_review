@@ -1,0 +1,6 @@
+```
+$GOPATH 一个工作区域
+go env
+GOROOT 安装go 的路径
+GOPATH/bin 添加到环境变量, go install 会把生产得二进制文件拷贝到GOPATH/bin
+```

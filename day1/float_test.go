@@ -10,6 +10,7 @@
 // 	"math"
 // )
 
+// go语言默认浮点型是float64
 // func main() {
 // 	fmt.Printf("%.10f\n", math.Pi)
 // 	fmt.Printf("%.2f\n", math.Pi)

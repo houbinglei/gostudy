@@ -1,6 +1,48 @@
-```
+
 $GOPATH 一个工作区域
 go env
 GOROOT 安装go 的路径
 GOPATH/bin 添加到环境变量, go install 会把生产得二进制文件拷贝到GOPATH/bin
-```
+
+go build  -o "xx.exe"
+go run main.go
+go install 先编译，后拷贝
+
+语法：
+package main
+// 单行注释
+/*
+多行注释
+*/
+
+// main函数是入口函数，没有参数，也没有返回值
+func main(){
+    编译一个可执行文件，必须是main 包，有一个main函数
+    函数内部得变量 必须使用，最简单得打印一下
+}
+
+函数外边只能写关键子开头得，
+var name = "binglei"
+const (
+    num = 100
+)
+
+字节是byte
+1byte = 8bit, 8个二进制位
+go 语言中字符串都是UTF-8 编码
+
+
+go语言没办法直接定义二进制数
+可以八进制数，十六进制等
+默认打印是十进制数字。需要%o等转换成八进制。
+
+
+
+
+
+
+
+
+
+
+
